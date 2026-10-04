@@ -22,9 +22,9 @@ def pagina_listar():
         with st.expander(f"{icone} {tipo_badge} {u['razao_social']}"):
             col1, col2 = st.columns(2)
             col1.write(f"**ID:** {u['id']}")
-            col2.write(f"**Contato ** {u['nome_usuario']}")
-            col1.write(f"**Status ** {u['status']}")
-            col2.write(f"**Tipo **{u['tipo']}")
+            col2.write(f"**Contato** {u['nome_usuario']}")
+            col1.write(f"**Status** {u['status']}")
+            col2.write(f"**Tipo** {u['tipo']}")
             col2.write(f"**E-mail** {u['email_contato']}")
-            st.caption(f"Criado em: **{u['data_criacao']}")
+            st.caption(f"Criado em:{u['data_criacao']}")
 
