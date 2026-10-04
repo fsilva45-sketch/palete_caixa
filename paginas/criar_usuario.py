@@ -3,7 +3,7 @@ from banco_dados.db import (criar_usuario, listar_tipos_status,
                             listar_tipos_usuario)
 
 def pagina_criar():
-    st.header(":: Criar Usuário")
+    st.header("➕ Criar Usuário")
 
     opcoes_tipos_usuarios = listar_tipos_usuario()
 
