@@ -2,3 +2,4 @@
 *.xlsx
 *.pptx
 *.env
+__pycache__
